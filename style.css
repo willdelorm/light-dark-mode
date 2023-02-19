@@ -172,14 +172,14 @@ p {
 }
 
 /* Contact Section */
-.svg-inline--fa {
+.social-icons .svg-inline--fa {
   font-size: 100px;
   margin-right: 50px;
   cursor: pointer;
   color: var(--primary-color);
 }
 
-.svg-inline--fa:hover {
+.social-icons .svg-inline--fa:hover {
   color: var(--on-background);
 }
 
@@ -254,7 +254,7 @@ input:checked + .slider::before {
   border-radius: 50%;
 }
 
-.fas {
+.theme-switch-wrapper svg {
   font-size: 30px;
   margin-right: 5px;
 }
